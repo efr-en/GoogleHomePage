@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgb(256, 256, 256);
+}
+
+body {
+    background-color: rgb(32,33,36);
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    font-size: 0.9rem;
+}
+
+.menu-bg {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.menu-bg:hover {
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.menu-btn {
+    width: 15px;
+}
+
+.profile-pic {
+    margin-top: 6px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.search-wrapper {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form {
+    position: relative;
+    color: rgb(77, 81, 86);
+    margin-top: 30px;
+    
+}
+
+#searchInput {
+    background-color: rgb(32,33,36);
+}
+
+#searchInput:hover {
+    background-color: #373737;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+input {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid rgb(95,99,104);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    width: 19px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.mic {
+    width: 22px;
+    position: absolute;
+    top: 12px;
+    left: 540px;
+}
+
+.buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: rgb(48, 49, 52);
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid #6e6c6c;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+}
+
+.panel {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.carbon {
+    text-align: center;
+}
+
+.leaf {
+    width: 12px;
+}
+
+.footer-right {
+    justify-content: flex-end;
+}
+
+
+img.logo {
+    width: 272px;
+    height: 92px;
+
+}
+
+div.climate {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
